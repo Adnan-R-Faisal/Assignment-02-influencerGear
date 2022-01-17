@@ -403,7 +403,7 @@ a.btn {
     text-align: center;
     margin-top: calc(3 * var(--element-gap));
     margin-bottom: calc(3 * var(--element-gap));
-    border-radius: var(--element-gap);
+    border-radius: calc(0.5 * var(--element-gap));
 }
 .subscription-section h2 {
     padding: calc(2* var(--element-gap)) ;
@@ -442,7 +442,7 @@ a.btn {
 /* --------footer section start--------- */
 
 footer {
-    background-image: url(../../abstract-1067.png);
+    background-image: url(../images/abstract-1067.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1050,6 +1050,7 @@ h1 {
     }
 }
 
+/* focus states */
 
     .site-banner:focus  .floating , .site-banner:focus-within  .floating {  
         animation-name: floating;
@@ -1066,5 +1067,7 @@ h1 {
     .product-card:focus {
         box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
     }
+
+/* focus states */ 
 
 
